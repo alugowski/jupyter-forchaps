@@ -1,0 +1,7 @@
+jupyter
+jupyter_contrib_nbextensions
+numpy
+sympy
+matplotlib
+pint
+uncertainties
