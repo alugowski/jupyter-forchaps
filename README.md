@@ -12,6 +12,8 @@ like a chapter from a book. This way a procedure can be codified so its mathemat
 letting the user input their own values, while hiding the boilerplate Python code. This way the focus can be on the
 underlying principles. Of course the underlying Python code is always available for inspection and modification.
 
+See screenshots of a notebook and example PDF in [example-images/].
+
 # Installation
 
 This assumes a Mac or Linux environment.
