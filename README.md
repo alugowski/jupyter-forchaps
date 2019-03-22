@@ -12,7 +12,7 @@ like a chapter from a book. This way a procedure can be codified so its mathemat
 letting the user input their own values, while hiding the boilerplate Python code. This way the focus can be on the
 underlying principles. Of course the underlying Python code is always available for inspection and modification.
 
-See screenshots of a notebook and example PDF in [example-images/].
+See screenshots of a notebook and example PDF in [example-images/](example-images/).
 
 # Installation
 
@@ -41,7 +41,7 @@ Printview plugin options:
 ```
 
 Creating PDFs requires a Latex installation on your system. See bottom of
-[https://nbconvert.readthedocs.io/en/latest/install.html]
+<https://nbconvert.readthedocs.io/en/latest/install.html>
 
 ### What does setup.sh do?
 
@@ -79,6 +79,6 @@ jupyter nbconvert --template=printviewlatex --to=pdf mynotebook.ipynb
 
 # Further reading
 
-* Advanced [http://blog.juliusschulz.de/blog/ultimate-ipython-notebook]
-* Some simple Latex extensions [https://michaelgoerz.net/notes/custom-template-for-converting-jupyter-notebooks-to-latex.html]
-* Customizing PDF output [https://nbconvert.readthedocs.io/en/latest/customizing.html]
+* Advanced <http://blog.juliusschulz.de/blog/ultimate-ipython-notebook>
+* Some simple Latex extensions <https://michaelgoerz.net/notes/custom-template-for-converting-jupyter-notebooks-to-latex.html>
+* Customizing PDF output <https://nbconvert.readthedocs.io/en/latest/customizing.html>
