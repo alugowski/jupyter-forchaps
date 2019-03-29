@@ -12,3 +12,8 @@ jupyter nbextension enable hide_input_all/main
 
 # Enable code folding extension
 jupyter nbextension enable codefolding/main
+
+# Enable extension that can emit PDFs using `nbconvert`.
+# This has to be configured, as the default is to emit HTML. This configuration must be done in the UI
+# as there is no programmatic way to configure extensions yet. See the README.
+jupyter nbextension enable printview/main

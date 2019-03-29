@@ -26,6 +26,12 @@ cd jupyter-forchaps/
 ./setup.sh
 ```
 
+The `setup.sh` script created a virtual environment in the `env/` directory. Activate it:
+
+```bash
+source env/bin/activate
+```
+
 Open Jupyter:
 ```bash
 jupyter notebook notebooks/
