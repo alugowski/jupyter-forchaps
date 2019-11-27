@@ -8,7 +8,7 @@ venv () {
 
 		echo "Upgrading pip..."
 		source env/bin/activate
-		pip install --upgrade pip
+		python -m pip install --upgrade pip
 	fi
 
 	echo "Activating env..."
@@ -16,7 +16,7 @@ venv () {
 }
 
 venv
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 source requirements-jupyter-extensions.sh
 
